@@ -11,3 +11,59 @@
  *= require_self
  *= require_tree .
  */
+
+body{
+	padding: 40px
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.1em;
+  color: blue;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 5px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  margin-top: 145px
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+  position:fixed;
+  bottom:0;
+  width:90%;
+  
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
